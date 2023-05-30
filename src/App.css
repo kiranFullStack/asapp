@@ -1,5 +1,23 @@
+.like-share {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.label {
+  color: red;
+}
+
+.comment-box {
+  margin-left: 40px;
+}
+
+.replies-box {
+  margin-left: 80px;
+}
+
 .App {
   text-align: center;
+  min-height: 100vh;
 }
 
 .App-logo {
@@ -11,6 +29,25 @@
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
+}
+
+.border-class {
+  border: 2px solid red;
+}
+
+.layout {
+  display: flex;
+  height: 80%;
+}
+.width-aside {
+  width: 40%;
+}
+
+.footer {
+  height: 10%;
+}
+.header {
+  height: 10%;
 }
 
 .App-header {

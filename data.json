@@ -1,0 +1,52 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "body": "Comment with your question.......",
+      "author": "SportsCenter",
+      "like": 5851,
+      "share": 259,
+      "comments": [
+        {
+          "id": 2,
+          "body": "some comment",
+          "postId": 1,
+          "author": "ABC",
+          "like": 0,
+          "replies": [
+            {
+              "id": 5,
+              "body": "some comment",
+              "commentId": 2,
+              "author": "XYZ",
+              "like": 0
+            },
+            {
+              "id": 5,
+              "body": "some comment",
+              "commentId": 2,
+              "author": "XYZ",
+              "like": 0
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "body": "some comment",
+          "postId": 1,
+          "author": "XYZ",
+          "like": 0,
+          "replies": [
+            {
+              "id": 5,
+              "body": "some comment",
+              "commentId": 2,
+              "author": "XYZ",
+              "like": 0
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
